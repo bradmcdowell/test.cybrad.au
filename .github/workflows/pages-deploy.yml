@@ -8,6 +8,9 @@ on:
       - README.md
       - LICENSE
 
+permissions:
+  contents: write  # Enable git push
+
 jobs:
   build-release:
 
@@ -33,5 +36,5 @@ jobs:
       #       echo "BASE_URL=$baseurl" >> $GITHUB_ENV
       #     fi
 
-      - name: Deploy
+      - name: Deploy Script
         run: bash tools/release.sh
