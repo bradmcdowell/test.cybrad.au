@@ -29,12 +29,12 @@ jobs:
           ruby-version: 3.2.2
           bundler-cache: true
 
-      # - name: Check baseurl
-      #   run: |
-      #     baseurl="$(grep '^baseurl:' _config.yml | sed "s/.*: *//;s/['\"]//g;s/#.*//")"
-      #     if [[ -n $baseurl ]]; then
-      #       echo "BASE_URL=$baseurl" >> $GITHUB_ENV
-      #     fi
+      - name: Check baseurl
+        run: |
+          baseurl="$(grep '^baseurl:' _config.yml | sed "s/.*: *//;s/['\"]//g;s/#.*//")"
+          if [[ -n $baseurl ]]; then
+            echo "BASE_URL=$baseurl" >> $GITHUB_ENV
+          fi
 
       - name: Deploy Script
         run: bash tools/release.sh
