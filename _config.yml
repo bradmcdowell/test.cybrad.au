@@ -32,23 +32,23 @@ title: cybrad                         # the main title
 url: 'https://test.cybrad.au'
 
 github:
-  username: timothystewart6             # change to your github username
+  username: bradmcdowell             # change to your github username
 twitter:
-  username: technotimlive            # change to your twitter username
+  username:             # change to your twitter username
 patreon:
-  username: technotim
+  username: 
 twitch:
-  username: technotim
+  username: 
 instagram:
-  username: techno.tim
+  username: 
 facebook:
-  username: TechnoTimLive
+  username: 
 discord:
-  invitelink: akMB4HJpvF
-youtube:
-  channelid: UCOk-gHyjcWZNj3Br4oxwh0A
-tiktok:
-  username: '@technotim'
+  invitelink: 
+# youtube:
+#   channelid: addcodeidhere
+# tiktok:
+#   username: 
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
