@@ -12,49 +12,66 @@ baseurl: ""
 # otherwise, the layout language will use the default value of 'en'.
 lang: en
 
+# Additional parameters for datetime localization, optional. › https://github.com/iamkun/dayjs/tree/dev/src/locale
+prefer_datetime_locale:
+
 # Change to your timezone › http://www.timezoneconverter.com/cgi-bin/findzone/findzone
 timezone: Australia/Melbourne
 
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: cybrad # the main title
+title: cybrad                         # the main title
 
-tagline: # it will display as the sub-title
+# tagline: Engineer. Builder. Creator. | From Code to Cloud   # it will display as the sub-title
 
-description: >- # used by seo meta and the atom feed
-  A website to assist with CyberArk Privilege Cloud installations
+# description: >-                        # used by seo meta and the atom feed
+#  Techno Tim Home - Documentation and More
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
-url: "https://cybrad.au"
+url: 'https://test.cybrad.au'
 
 github:
-  username: bradmcdowell # change to your github username
-
+  username: bradmcdowell             # change to your github username
 twitter:
-  username: twitter_username # change to your twitter username
-
-social:
-  # Change to your full name.
-  # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: cybrad
-  email: info@cybrad.com # change to your email address
-  links:
-    # The first element serves as the copyright owner's link
-    - https://twitter.com/username # change to your twitter homepage
-    - https://github.com/username # change to your github homepage
+  username:             # change to your twitter username
+patreon:
+  username: 
+twitch:
+  username: 
+instagram:
+  username: 
+facebook:
+  username: 
+discord:
+  invitelink: 
+# youtube:
+#   channelid: addcodeidhere
+# tiktok:
+#   username: 
+# social:
+#   # Change to your full name.
+#   # It will be displayed as the default author of the posts and the copyright owner in the Footer
+#   name: Techno Tim
+  # email: example@doamin.com             # change to your email address
+  # links:
+  #   # The first element serves as the copyright owner's link
+  #   - https://l.technotim.live/twitter      # change to your twitter homepage
+    # - https://github.com/username       # change to your github homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
     # - https://www.linkedin.com/in/username
 
-google_site_verification: # fill in to your verification string
 
 # ↑ --------------------------
 # The end of `jekyll-seo-tag` settings
 
-google_analytics:
-  id: G-5QM0DD3VWJ
-  # fill in your Google Analytics ID
+# Web Analytics Settings
+analytics:
+  google:
+    id: 'G-5QM0DD3VWJ'          # Fill with your Google Analytics ID
+  goatcounter:
+    id: # fill in your GoatCounter ID
 
 # Prefer color scheme setting.
 #
@@ -67,7 +84,7 @@ google_analytics:
 #     light  - Use the light color scheme
 #     dark   - Use the dark color scheme
 #
-theme_mode: dark # [light|dark]
+# theme_mode: dark # [light | dark]
 
 # The CDN endpoint for images.
 # Notice that once it is assigned, the CDN url
@@ -77,41 +94,48 @@ theme_mode: dark # [light|dark]
 img_cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar: https://raw.githubusercontent.com/bradmcdowell/cybrad/main/logos/logo.png
+avatar: https://avatars.githubusercontent.com/u/1322205?s=400&u=5b4f2219006577dc0426007fe5a02391c4899677&v=4
 
-# boolean type, the global switch for TOC in posts.
+# boolean type, the global switch for ToC in posts.
 toc: true
 
 comments:
-  active: # The global switch for posts comments, e.g., 'disqus'.  Keep it empty means disable
+  active: giscus        # The global switch for posts comments, e.g., 'disqus'.  Keep it empty means disable
   # The active options are as follows:
   disqus:
-    shortname: # fill with the Disqus shortname. › https://help.disqus.com/en/articles/1717111-what-s-a-shortname
+    shortname:    # fill with the Disqus shortname. › https://help.disqus.com/en/articles/1717111-what-s-a-shortname
   # utterances settings › https://utteranc.es/
   utterances:
-    repo: # <gh-username>/<repo>
-    issue_term: # < url | pathname | title | ...>
+    repo:         # <gh-username>/<repo>
+    issue_term:   # < url | pathname | title | ...>
   # Giscus options › https://giscus.app
   giscus:
-    repo: # <gh-username>/<repo>
-    repo_id:
-    category:
-    category_id:
-    mapping: # optional, default to 'pathname'
-    input_position: # optional, default to 'bottom'
-    lang: # optional, default to the value of `site.lang`
-    reactions_enabled: # optional, default to the value of `1`
+    repo: techno-tim/techno-tim.github.io
+    repo_id: MDEwOlJlcG9zaXRvcnkyNTQ3ODQ3Nzk
+    category: Comments
+    category_id: DIC_kwDODy-1C84CSN7z
+    mapping: pathname          # optional, default to 'pathname'
+    input_position: bottom  # optional, default to 'bottom'
+    lang: en            # optional, default to the value of `site.lang`
+    reactions_enabled: 1
 
 # Self-hosted static assets, optional › https://github.com/cotes2020/chirpy-static-assets
 assets:
   self_host:
-    enabled: # boolean, keep empty means false
+    enabled:      # boolean, keep empty means false
     # specify the Jekyll environment, empty means both
     # only works if `assets.self_host.enabled` is 'true'
-    env: # [development|production]
+    env:          # [development|production]
 
 pwa:
-  enabled: true # the option for PWA feature
+  enabled: false # the option for PWA feature (installable)
+  cache:
+    enabled: false # the option for PWA offline cache
+    # Paths defined here will be excluded from the PWA cache.
+    # Usually its value is the `baseurl` of another website that
+    # shares the same domain name as the current website.
+    deny_paths:
+      # - "/example"  # URLs match `<SITE_URL>/example/*` will not be cached by the PWA
 
 paginate: 10
 
@@ -155,10 +179,6 @@ defaults:
       layout: page
       permalink: /:title/
   - scope:
-      path: assets/img/favicons
-    values:
-      swcache: true
-  - scope:
       path: assets/js/dist
     values:
       swcache: true
@@ -178,13 +198,18 @@ compress_html:
 exclude:
   - "*.gem"
   - "*.gemspec"
+  - docs
   - tools
   - README.md
-  - CHANGELOG.md
   - LICENSE
   - rollup.config.js
   - node_modules
   - package*.json
+  - archive_old
+  - template
+  - reference_files
+  - kubernetes
+  - Dockerfile
 
 jekyll-archives:
   enabled: [categories, tags]
