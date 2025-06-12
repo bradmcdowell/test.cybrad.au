@@ -1,13 +1,9 @@
 ---
-layout: post
-title: "Some Title"
-date: 2021-01-01 09:00:00 -0500
-categories: homelab
-tags: homelab rancher kubernetes
+title: "#XX - CyberArk Privilege Cloud ....."
+date: 2025-03-07 14:10:10 +1100
+categories: [CyberArk Privilege Cloud]
+tags: [cyberark,privilegecloud,Identity,SIA,PSM,CPM]     # TAG names should always be lowercase
 ---
+In this video, you'll explore ....
 
-[![Some Title](https://img.youtube.com/vi/BBBBBBBBBBBB/0.jpg)](https://www.youtube.com/watch?v=BBBBBBBBBBBB "Some Title")
-
-SOME DESCRIPTION
-
-[Watch Video](https://www.youtube.com/watch?v=BBBBBBBBBBBB)
+[![Video Preview](https://i.ytimg.com/vi/XXXXXXXXXX/maxresdefault.jpg)](https://www.youtube.com/watch?v=XXXXXXXXXX)
