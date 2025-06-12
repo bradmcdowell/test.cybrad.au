@@ -77,7 +77,7 @@ theme_mode: dark # [light|dark]
 img_cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar: https://raw.githubusercontent.com/bradmcdowell/cybrad/main/logos/logo.png
+avatar: /assets/img/logo.png
 
 # boolean type, the global switch for TOC in posts.
 toc: true
