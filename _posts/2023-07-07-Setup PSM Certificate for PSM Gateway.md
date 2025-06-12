@@ -50,5 +50,5 @@ Type:
 CyberArk.TransparentConnection.BooleanUserParameter, CyberArk.PasswordVault.TransparentConnection
 ```
 
-![image](https://raw.githubusercontent.com/bradmcdowell/cybrad/main/assets/img/HTML5Gateway_Settings.png)
+![image](/assets/img/HTML5Gateway_Settings.png)
 
