@@ -8,6 +8,9 @@ Welcome back to the CyberArk SIA series! In this video, we take a deep dive into
 
 [![Video Preview](https://i.ytimg.com/vi/EsSILQWNVQI/maxresdefault.jpg)](https://www.youtube.com/watch?v=EsSILQWNVQI)
 
+## CyberArk Docs
+[What is a Windows strong account?](https://docs.cyberark.com/ispss-access/latest/en/content/introduction/dpa_strong-account.htm)
+
 ## Objectives
 
 - Platform and Safe settings – SIA Strong Account
