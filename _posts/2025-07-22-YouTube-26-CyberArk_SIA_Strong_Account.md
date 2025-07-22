@@ -6,7 +6,7 @@ tags: [cyberark,privilegecloud,Identity,SIA,ZSP,CPM]     # TAG names should alwa
 ---
 Welcome back to the CyberArk SIA series! In this video, we take a deep dive into the SIA Windows Strong Account, focusing on how to enforce least privilege wherever possible through secure configuration and testing.
 
-[![Video Preview](https://i.ytimg.com/vi/TDqr6yvKIS4/maxresdefault.jpg)](https://www.youtube.com/watch?v=TDqr6yvKIS4)
+[![Video Preview](https://i.ytimg.com/vi/EsSILQWNVQI/maxresdefault.jpg)](https://www.youtube.com/watch?v=EsSILQWNVQI)
 
 ## Objectives
 
