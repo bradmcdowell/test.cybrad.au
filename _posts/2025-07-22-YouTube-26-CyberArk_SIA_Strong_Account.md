@@ -11,6 +11,25 @@ Welcome back to the CyberArk SIA series! In this video, we take a deep dive into
 ## CyberArk Docs
 [What is a Windows strong account?](https://docs.cyberark.com/ispss-access/latest/en/content/introduction/dpa_strong-account.htm)
 
+## Strong Account
+The script bellow allows the Strong Account to be able to edit the members of the AdminSDHolder template.
+
+```powershell
+# Set the AD account that will be used for the Strong Account
+$StrongAccount = "DOMAIN\<CyberArk_Strong_Account>"
+
+# This gets the AD domain in DN format
+$DistinguishedName = (Get-ADDomain).DistinguishedName
+Write-host "Domain OU is =" $DistinguishedName
+
+# This gets the AdminSDHolder DN
+$AdminSDHolerDN = "CN=AdminSDHolder,CN=System,"+$DistinguishedName
+Write-host "AdminSDHolder DN is =" $AdminSDHolerDN
+
+# Grant permissions to allow modifying group membership
+dsacls.exe $AdminSDHolerDN /G $StrongAccount":WP;member"
+```
+
 ## Objectives
 
 - Platform and Safe settings – SIA Strong Account
