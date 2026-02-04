@@ -1,7 +1,7 @@
 ---
 title: "#16 - CyberArk Windows Reconcile"
 date: 2024-08-02 10:10:10 +1100
-categories: [Privilege Cloud,CPM]
+categories: [CyberArk Privilege Cloud,CPM]
 tags: [cyberark,privilegecloud,CPM]     # TAG names should always be lowercase
 ---
 

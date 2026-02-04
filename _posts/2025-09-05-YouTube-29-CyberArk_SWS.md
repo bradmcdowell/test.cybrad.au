@@ -8,6 +8,17 @@ In this video, I walk you through the key features and setup process of CyberArk
 
 [![Video Preview](https://i.ytimg.com/vi/OMGOcOmWWog/maxresdefault.jpg)](https://www.youtube.com/watch?v=OMGOcOmWWog)
 
+## Gitea Web App
+
+This is the logon sequence script for Gitea. This needs to be pasted into the Advanced tab. This script appends the domain name to the username.
+
+``` javascript
+loginData.applicationUrl = "https://gitea.domainname.example/user/login";
+loginData.addField("username", "input#user_name", LoginUsername+"@domainname.example");
+loginData.addField("password", "input#password", LoginPassword);
+loginData.submitPattern = "button.ui.primary.button";
+```
+
 ## Objectives
 
 - Review PSM Web App use case

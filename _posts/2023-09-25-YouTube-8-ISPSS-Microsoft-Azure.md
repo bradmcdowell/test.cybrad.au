@@ -1,7 +1,7 @@
 ---
 title: "#8 - CyberArk Privilege Cloud | Microsoft Azure"
 date: 2023-09-25 10:10:10 +1100
-categories: [Privilege Cloud,CPM,PSM,Microsoft Azure, Microsoft Entra ID]
+categories: [CyberArk Privilege Cloud,CPM,PSM,Microsoft Azure, Microsoft Entra ID]
 tags: [cyberark,privilegecloud,cpm,psm,microsoft,azure,entraid]     # TAG names should always be lowercase
 ---
 

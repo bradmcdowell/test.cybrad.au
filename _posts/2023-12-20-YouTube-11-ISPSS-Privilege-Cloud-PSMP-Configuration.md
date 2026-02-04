@@ -1,7 +1,7 @@
 ---
 title: "#11 - CyberArk Privilege Cloud | PSMP Proxy Configuration"
 date: 2023-12-20 10:10:10 +1100
-categories: [Privilege Cloud,PSMP,squid proxy]
+categories: [CyberArk Privilege Cloud,PSMP,squid proxy]
 tags: [cyberark,privilegecloud,psmp,squidproxy]     # TAG names should always be lowercase
 ---
 

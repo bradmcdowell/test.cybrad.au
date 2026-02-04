@@ -1,7 +1,7 @@
 ---
 title: "#7 - CyberArk Privilege Cloud | Palo Alto Networks PAN-OS"
 date: 2023-09-20 10:10:10 +1100
-categories: [Privilege Cloud,CPM,PSM,Palo Alto]
+categories: [CyberArk Privilege Cloud,CPM,PSM,Palo Alto]
 tags: [cyberark,privilegecloud,cpm,psm,paloalto,panos]     # TAG names should always be lowercase
 ---
 

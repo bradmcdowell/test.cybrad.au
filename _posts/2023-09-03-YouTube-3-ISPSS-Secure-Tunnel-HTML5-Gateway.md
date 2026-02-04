@@ -1,9 +1,15 @@
 ---
 title: "#3 - CyberArk Privilege Cloud | Secure Tunnel and HTML5 Gateway"
 date: 2023-09-05 10:10:10 +1100
-categories: [Privilege Cloud,Secure Tunnel]
+categories: [CyberArk Privilege Cloud,Secure Tunnel]
 tags: [cyberark,privilegecloud,secure tunnel,HTML5gateway]     # TAG names should always be lowercase
 ---
+⚠️ IMPORTANT NOTICE:
+The information in this video is outdated.
+A secure tunnel is no longer required for the HTML5 Gateway.
+
+Please refer to the updated configuration guide here:
+📺 [Watch the updated video](https://www.youtube.com/watch?v=K9HAzIJBM8U)
 
 This video covers configuring certificats for the HTML5 gateway, installing the secure tunnel software and load balancer configuraiton.
 <!---

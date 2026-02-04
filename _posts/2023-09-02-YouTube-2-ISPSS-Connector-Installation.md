@@ -1,7 +1,7 @@
 ---
 title: "#2 - CyberArk Privilege Cloud | Connector Installation"
 date: 2023-09-04 10:10:10 +1100
-categories: [Privilege Cloud,Connector Management]
+categories: [CyberArk Privilege Cloud,Connector Management]
 tags: [cyberark,privilegecloud]     # TAG names should always be lowercase
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "#10 - CyberArk Privilege Cloud | Windows Proxy Configuration"
 date: 2023-12-13 10:10:10 +1100
-categories: [Privilege Cloud,PSM,CPM,Secure Tunne,Identity Connector,squid proxy]
+categories: [CyberArk Privilege Cloud,PSM,CPM,Secure Tunne,Identity Connector,squid proxy]
 tags: [cyberark,privilegecloud,psm,cpm,squidproxy]     # TAG names should always be lowercase
 ---
 

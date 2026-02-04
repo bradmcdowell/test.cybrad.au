@@ -1,7 +1,7 @@
 ---
 title: "#9 - CyberArk Privilege Cloud | PSM Health Check & Load Balancing"
 date: 2023-12-06 10:10:10 +1100
-categories: [Privilege Cloud,PSM,PSMP,Health Check]
+categories: [CyberArk Privilege Cloud,PSM,PSMP,Health Check]
 tags: [cyberark,privilegecloud,psm,psmp,haproxy]     # TAG names should always be lowercase
 ---
 

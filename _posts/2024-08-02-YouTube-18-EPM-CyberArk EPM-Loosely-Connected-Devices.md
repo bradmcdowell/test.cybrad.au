@@ -1,7 +1,7 @@
 ---
 title: "#18 - CyberArk EPM – Loosely Connected Devices"
 date: 2024-09-09 9:10:10 +1100
-categories: [EPM,CyberArk Privilege Cloud]
+categories: [CyberArk EPM,CyberArk Privilege Cloud]
 tags: [cyberark,privilegecloud,EPM,Identity]     # TAG names should always be lowercase
 ---
 

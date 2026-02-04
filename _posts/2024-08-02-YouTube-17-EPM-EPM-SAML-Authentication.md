@@ -1,7 +1,7 @@
 ---
 title: "#17 - CyberArk EPM and CyberArk Identity SAML Authentication"
 date: 2024-09-05 9:10:10 +1100
-categories: [EPM,CyberArk Identity]
+categories: [CyberArk EPM,CyberArk Identity]
 tags: [cyberark,privilegecloud,EPM,Identity]     # TAG names should always be lowercase
 ---
 

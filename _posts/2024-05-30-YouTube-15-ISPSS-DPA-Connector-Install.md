@@ -1,7 +1,7 @@
 ---
-title: "#15 - DPA Connector Install, HTML5 Gatway and more..."
+title: "#15 - CyberArk SIA (Previously DPA) Install, HTML5 Gatway and more..."
 date: 2024-05-31 10:10:10 +1100
-categories: [Privilege Cloud,DPA]
+categories: [CyberArk SIA]
 tags: [cyberark,privilegecloud,dpa]     # TAG names should always be lowercase
 ---
 

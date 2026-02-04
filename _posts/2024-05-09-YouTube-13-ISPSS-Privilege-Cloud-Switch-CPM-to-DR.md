@@ -1,7 +1,7 @@
 ---
 title: "#13 - Switch CPM From Primary To DR Connector"
 date: 2024-05-09 10:10:10 +1100
-categories: [Privilege Cloud,Connector Management,CPM]
+categories: [CyberArk Privilege Cloud,Connector Management,CPM]
 tags: [cyberark,privilegecloud,connectormanagement,cpm]     # TAG names should always be lowercase
 ---
 

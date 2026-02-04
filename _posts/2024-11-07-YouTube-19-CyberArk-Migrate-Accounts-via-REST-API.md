@@ -1,7 +1,7 @@
 ---
 title: "#19 - CyberArk Migrate Accounts via REST API"
 date: 2024-11-07 9:10:10 +1100
-categories: [CyberArk Privilege Cloud]
+categories: [CyberArk Privilege Cloud,Migration]
 tags: [cyberark,privilegecloud,API]     # TAG names should always be lowercase
 ---
 

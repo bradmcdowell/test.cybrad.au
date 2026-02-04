@@ -1,7 +1,7 @@
 ---
 title: "#1 -  CyberArk Privilege Cloud | Identity Setup"
 date: 2023-09-03 10:10:10 +1100
-categories: [Privilege Cloud,Identity]
+categories: [CyberArk Privilege Cloud,CyberArk Identity]
 tags: [cyberark,privilegecloud,identity]     # TAG names should always be lowercase
 ---
 

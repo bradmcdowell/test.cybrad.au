@@ -1,7 +1,7 @@
 ---
 title: "#12 - CyberArk Privilege Cloud | Connector Updates 14.1"
 date: 2024-03-15 10:10:10 +1100
-categories: [Privilege Cloud,Connector Management,CPM,PSM,PSMP,]
+categories: [CyberArk Privilege Cloud,Connector Management,CPM,PSM,PSMP,]
 tags: [cyberark,privilegecloud,connectormanagement,cpm,psm,psmp]     # TAG names should always be lowercase
 ---
 

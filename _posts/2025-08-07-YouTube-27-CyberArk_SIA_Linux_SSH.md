@@ -1,7 +1,7 @@
 ---
 title: "#27 - CyberArk SIA Linux SSH"
-date: 2025-08-06 08:10:10 +1100
-categories: [CyberArk Privilege Cloud]
+date: 2025-08-07 08:10:10 +1100
+categories: [CyberArk SIA]
 tags: [cyberark,privilegecloud,Identity,SIA,ZSP,PSM,PSMP]     # TAG names should always be lowercase
 ---
 Welcome back to the CyberArk SIA series! In this video, we take a deep dive into the SIA Linux SSH use case.
@@ -9,7 +9,10 @@ Welcome back to the CyberArk SIA series! In this video, we take a deep dive into
 [![Video Preview](https://i.ytimg.com/vi/F176bi8SMWM/maxresdefault.jpg)](https://www.youtube.com/watch?v=F176bi8SMWM)
 
 ## CyberArk Docs
-TBC
+
+[SIA administration](https://docs.cyberark.com/ispss-access/latest/en/content/hometileslps/dpa-lp-tile7.htm)
+
+[Connect to a Linux target](https://docs.cyberark.com/ispss-access/latest/en/content/end-user/dpa_connect-using-ssh-login.htm)
 
 ## Objectives
 
